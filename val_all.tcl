@@ -7,7 +7,7 @@ namespace import ::cisco::lib::*
 #
 # Configure list of targets below.  Every test will use the list below as target destinations
 # I've created multiple smaller lists to make it more readable.  Those lists are combined into
-# on long list at the end.   
+# one long list at the end.   
 #
 set targetList1 {1.1.1.1 2.2.2.2 3.3.3.3}
 set targetNames1 {Test-Rtr-1 Test-Rtr-2 Test-Rtr-3}
