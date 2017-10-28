@@ -4,7 +4,7 @@ An EEM-TCL script to validate reachability and transit path during network chang
 This script was created to do automated information collection at multiple phases throughout a large network migration. It was placed on multiple routers and switches around the network and run at each validation step, to verify that reachability had been maintained and that we had not introduced any suboptimal routing paths.
 
 # Why EEM-TCL?
-Initially the plan was to just use TCL to do the job, but traceroute lacks consistency across platforms.  On some it worked, and on some it didnt'. We needed the validation script to work on any device we needed to run it from, regardless of platform, so we modified the initial script to be a variant using EEM-TCL. This worked incredibly well across router and switch platforms running both IOS and IOS-XE.
+Initially the plan was to just use TCL to do the job, but traceroute lacks consistency across platforms.  On some it worked, and on some it didn't. I needed the validation script to work on any device I needed to run it from, regardless of platform, so I modified the initial script to be a variant using EEM-TCL. This worked incredibly well across router and switch platforms running both IOS and IOS-XE.
 
 # Registration
 If you're unfamiliar with how EEM-TCL works, there are a couple extra steps you'll need to do to allow it to run. The process for installing this script is below:
