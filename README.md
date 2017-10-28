@@ -21,7 +21,7 @@ If you're unfamiliar with how EEM-TCL works, there are a couple extra steps you'
 
 4) To run your script, enter the following command from enable mode:  
 
-**```Source-Router#event manager run <file-name>```**
+**```Source-Router#event manager run {file-name}```**
 
 **Note** Something else that you probably want to do when running this script is setting the term length to 0 so you don't have to keep prompting additional output.
 
